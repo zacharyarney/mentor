@@ -169,7 +169,7 @@ markdownItalic                      -> Preproc
 asciidocQuotedEmphasized            -> Preproc
 
 ;;; Neovim Group  link to
-@variable         -> Normal
+@variable            lighter_grey      none
 
 ;;; Terminal
 Term colors: almost_black red green ocre blue purple aqua light_grey

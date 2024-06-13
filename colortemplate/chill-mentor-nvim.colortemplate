@@ -123,7 +123,7 @@ String               light_green       none
 Todo                 none              none              reverse
 Type                 light_purple      none
 Underlined           aqua              none              underline
-Function             ocre            none
+Function             ocre              none
 SpecialKey           medium_grey       none
 Title                none              none
 helpLeadBlank        none              none
@@ -169,7 +169,7 @@ markdownItalic                      -> Preproc
 asciidocQuotedEmphasized            -> Preproc
 
 ;;; Neovim Group  link to
-@variable         -> Normal
+@variable            lighter_grey      none
 
 ;;; Terminal
 Term colors: almost_black red green ocre blue purple aqua light_grey
