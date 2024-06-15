@@ -62,7 +62,7 @@ EndOfBuffer          medium_grey       none
 LineNr               light_grey        darker_grey
 FoldColumn           light_grey        darker_grey
 Folded               light_grey        darker_grey
-MatchParen           almost_black      yellow
+MatchParen           yellow            almost_black
 SignColumn           light_grey        darker_grey
 Pmenu                lighter_grey      grey
 PmenuSbar            none              medium_grey
@@ -94,7 +94,7 @@ DiffDelete           DiffDelete        dark_grey         reverse
 DiffText             DiffText          dark_grey         reverse
 IncSearch            darker_grey       red
 Search               darker_grey       yellow
-Directory            light_aqua        none
+Directory            blue              none
 debugPC              none              blue
 debugBreakpoint      none              red
 SpellBad             red               none              undercurl s=red

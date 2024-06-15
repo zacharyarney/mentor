@@ -62,7 +62,7 @@ EndOfBuffer          medium_grey       none
 LineNr               light_grey        darker_grey
 FoldColumn           light_grey        darker_grey
 Folded               light_grey        darker_grey
-MatchParen           almost_black      yellow
+MatchParen           yellow            almost_black
 SignColumn           light_grey        darker_grey
 Pmenu                lighter_grey      grey
 PmenuSbar            none              medium_grey
@@ -94,7 +94,7 @@ DiffDelete           DiffDelete        dark_grey         reverse
 DiffText             DiffText          dark_grey         reverse
 IncSearch            darker_grey       red
 Search               darker_grey       yellow
-Directory            light_aqua        none
+Directory            blue              none
 debugPC              none              blue
 debugBreakpoint      none              red
 SpellBad             red               none              undercurl s=red
@@ -128,6 +128,9 @@ SpecialKey           medium_grey       none
 Title                none              none
 helpLeadBlank        none              none
 helpNormal           none              none
+
+;;; Neovim Group     Foreground        Background        Attributes
+@variable            lighter_grey      none
 
 ;;; Group                           link to
 Number                              -> Constant
@@ -168,8 +171,8 @@ xmlEndTag                           -> Statement
 markdownItalic                      -> Preproc
 asciidocQuotedEmphasized            -> Preproc
 
-;;; Neovim Group  link to
-@variable            lighter_grey      none
+;;; Neovim Group                    link to
+NormalFloat                         -> Normal
 
 ;;; Terminal
 Term colors: almost_black red green ocre blue purple aqua light_grey
