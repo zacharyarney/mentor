@@ -4,9 +4,10 @@
 Full name:   chill-mentor-nvim
 Short name:  chill-mentor-nvim
 Description: Essentially 'apprentice' by Romain Lafourcade (romainlafourcade@gmail.com)
-Author:  Zachary Arney <zachary.arney@gmail.com>
+Author:      Zachary Arney <zachary.arney@gmail.com>
 Website:     https://github.com/romainl/Apprentice
 License:     MIT
+Neovim:      yes
 
 Variant:    gui 256 16
 Background: dark
@@ -172,7 +173,10 @@ markdownItalic                      -> Preproc
 asciidocQuotedEmphasized            -> Preproc
 
 ;;; Neovim Group                    link to
+CurSearch                           -> Search
 NormalFloat                         -> Normal
+WinBar                              -> StatusLine
+WinBarNC                            -> StatusLine
 
 ;;; Terminal
 Term colors: almost_black red green ocre blue purple aqua light_grey
