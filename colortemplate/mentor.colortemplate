@@ -88,10 +88,10 @@ Visual               light_blue        darker_grey       reverse
 VisualNOS            none              none              underline
 VertSplit            grey              grey
 WildMenu             darker_grey       light_blue
-DiffAdd              DiffAdd           dark_grey         reverse
-DiffChange           DiffChange        dark_grey         reverse
-DiffDelete           DiffDelete        dark_grey         reverse
-DiffText             DiffText          dark_grey         reverse
+DiffAdd              light_blue        dark_grey         reverse
+DiffChange           lighter_grey      dark_grey         reverse
+DiffDelete           yellow            dark_grey         reverse
+DiffText             light_grey        dark_grey         reverse
 IncSearch            darker_grey       red
 Search               darker_grey       yellow
 Directory            blue              none
@@ -102,6 +102,9 @@ SpellCap             light_aqua        none              undercurl s=light_aqua
 SpellLocal           green             none              undercurl s=green
 SpellRare            orange            none              undercurl s=orange
 ColorColumn          none              almost_black
+Added                light_green       none
+Removed              red               none
+Changed              light_aqua        none
 
 ;;; Group         link to
 Terminal          -> Normal
