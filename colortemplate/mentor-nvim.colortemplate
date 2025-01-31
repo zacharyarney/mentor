@@ -114,7 +114,7 @@ QuickFixLine      -> Search
 
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes
-Comment              light_grey        none
+Comment              light_grey        none              italic
 Conceal              lighter_grey      none
 Constant             orange            none
 Error                red               none              reverse
@@ -127,7 +127,7 @@ String               light_green       none
 Todo                 none              none              reverse
 Type                 light_purple      none
 Underlined           aqua              none              underline
-Function             ocre            none
+Function             ocre              none
 SpecialKey           medium_grey       none
 Title                none              none
 helpLeadBlank        none              none
