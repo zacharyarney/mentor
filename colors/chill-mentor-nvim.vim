@@ -61,7 +61,7 @@ hi TabLineFill guifg=#444444 guibg=#444444 gui=NONE cterm=NONE
 hi TabLineSel guifg=#262626 guibg=#87875f gui=NONE cterm=NONE
 hi ToolbarLine guifg=NONE guibg=#1c1c1c gui=NONE cterm=NONE
 hi ToolbarButton guifg=#bcbcbc guibg=#585858 gui=NONE cterm=NONE
-hi Cursor guifg=#1c1c1c guibg=#6c6c6c gui=NONE cterm=NONE
+hi Cursor guifg=#262626 guibg=#6c6c6c gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE guibg=#303030 gui=NONE cterm=NONE
 hi StatusLine guifg=#262626 guibg=#87875f gui=NONE cterm=NONE
 hi StatusLineNC guifg=#87875f guibg=#444444 gui=NONE cterm=NONE
@@ -201,7 +201,7 @@ if s:t_Co >= 256
   hi TabLineSel ctermfg=235 ctermbg=101 cterm=NONE
   hi ToolbarLine ctermfg=NONE ctermbg=234 cterm=NONE
   hi ToolbarButton ctermfg=250 ctermbg=240 cterm=NONE
-  hi Cursor ctermfg=234 ctermbg=242 cterm=NONE
+  hi Cursor ctermfg=235 ctermbg=242 cterm=NONE
   hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE
   hi StatusLine ctermfg=235 ctermbg=101 cterm=NONE
   hi StatusLineNC ctermfg=101 ctermbg=238 cterm=NONE
