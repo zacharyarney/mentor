@@ -79,7 +79,7 @@ TabLineFill          grey              grey
 TabLineSel           darker_grey       ocre
 ToolbarLine          none              almost_black
 ToolbarButton        lighter_grey      medium_grey
-Cursor               darker_grey       lighter_grey
+Cursor               darker_grey       light_grey
 CursorColumn         none              dark_grey
 StatusLine           darker_grey       ocre
 StatusLineNC         ocre              grey
@@ -135,11 +135,11 @@ helpNormal           none              none
 
 ;;; Neovim Group     Foreground        Background        Attributes
 @variable            lighter_grey      none
-DiagnosticError      red               none
-DiagnosticWarn       yellow            none
-DiagnosticInfo       light_aqua        none
-DiagnosticHint       light_blue        none
-DiagnosticOk         light_green       none
+DiagnosticError      red               none              italic
+DiagnosticWarn       yellow            none              italic
+DiagnosticInfo       light_aqua        none              italic
+DiagnosticHint       light_blue        none              italic
+DiagnosticOk         light_green       none              italic
 DiagnosticUnderlineError none          none              underline s=red
 DiagnosticUnderlineWarn  none          none              underline s=yellow
 DiagnosticUnderlineInfo  none          none              underline s=light_aqua
